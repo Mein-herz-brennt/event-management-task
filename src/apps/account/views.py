@@ -25,6 +25,6 @@ class RegisterView(generics.CreateAPIView):
             'access': str(refresh.access_token)
         }, status=status.HTTP_201_CREATED)
 
-
+@extend_schema(auth=[])
 class LoginView(TokenObtainPairView):
     pass
