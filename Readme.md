@@ -6,7 +6,7 @@ Before starting the project, please set up the .env file using the same structur
 ```bash
 git clone https://github.com/Mein-herz-brennt/event-management-task.git
 cd event-management-task
-docker compose up -d
+docker compose up --build -d
 ```
 
 ### Access:
