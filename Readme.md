@@ -2,6 +2,7 @@
 ### Event management task
 
 ### Setup
+Before starting the project, please set up the .env file using the same structure as in .env.example .
 ```bash
 git clone https://github.com/Mein-herz-brennt/event-management-task.git
 cd event-management-task
